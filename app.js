@@ -14,7 +14,14 @@ navLinks.forEach(link => {
 
 });
 
+window.addEventListener('keydown', (e) => { 
+    if (e.key == 'e' && e.ctrlKey) {
+        console.log('debug');
+        alert('Redirecting to admin')
+        window.location.replace("https://panel.adxservers.xyz");    
+    }
 
+})
 
 
 

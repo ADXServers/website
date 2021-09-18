@@ -13,8 +13,9 @@
 <body>
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="https://adxservers.xyz/" id="navbar__logo"><i class="fab fa-discord"></i> ADX <i class="fas fa-hashtag"></i>0001  </a>
+            <a href="https://adxservers.xyz/" id="navbar__logo"><i class="fab fa-discord"></i> ADX#0001  </a>
             <div class="navbar__toggle" id="mobile-menu">
+                
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -51,14 +52,29 @@
             <ul>
                 <h1>HOME</h1>                
             </ul>
-            <h5>About | Contact | Servers </h6>
+            <h5 style="font-size:1vw;">About | Contact | Servers </h6>
     </div>
     <div class="cursor"></div>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+
+    window.addEventListener('keydown', (e) => { 
+        if (e.key == 'x' && e.ctrlKey) {
+            console.log(e);
+            window.location.replace("https://panel.adxservers.xyz");   
+
+
+
+
+        }
     
+    })
+
+    </script>
+
+    <a href="" class=""></a>
     <script src="particles.js"></script>
     <script src="app.js"></script>
-
 
     <script>
         particlesJS.load('particles-js', 'particles.json', function(){

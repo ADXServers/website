@@ -308,13 +308,14 @@
     border: #ccc 0px solid;
     position:absolute;
     top:50%;
-    left:50%;
+    left:20%;
     margin-top:-200px; 
-    margin-left:-200px;
+    margin-right:-200;
+    margin-left:-200;
     font-size: 30px;
-    background: #232526;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */         
+    background: #a80077;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #66ff00, #a80077);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #66ff00, #a80077); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
